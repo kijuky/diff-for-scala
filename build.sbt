@@ -5,9 +5,7 @@ lazy val root = project
     scalaVersion := "2.12.20",
     crossScalaVersions := Seq(scalaVersion.value, "3.3.4"),
     libraryDependencies ++= Seq(
-      "io.github.java-diff-utils" % "java-diff-utils" % "4.12",
-      "org.scalatest" %% "scalatest" % "3.2.19" % Test,
-      "org.slf4j" % "slf4j-simple" % "1.7.36" % Test
+      "io.github.java-diff-utils" % "java-diff-utils" % "4.12"
     )
   )
 
