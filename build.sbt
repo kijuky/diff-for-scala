@@ -2,7 +2,7 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "diff-for-scala",
-    scalaVersion := "2.12.20",
+    scalaVersion := "2.13.15",
     crossScalaVersions := Seq(scalaVersion.value, "3.3.4"),
     libraryDependencies ++= Seq(
       "io.github.java-diff-utils" % "java-diff-utils" % "4.12"
